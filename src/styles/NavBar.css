@@ -1,0 +1,32 @@
+.top-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav__menu {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.nav__menu > :not(first-child) {
+  margin-left: 40px;
+}
+
+.nav__menu {
+  list-style-type: none;
+}
+
+.menu__link {
+    padding-top: 1px;
+    padding-bottom: 5px;
+}
+
+.menu__link:hover {
+  border-bottom: 1px solid orange;
+}
+
+.menu__link a {
+  color: black;
+  text-decoration: none;
+}

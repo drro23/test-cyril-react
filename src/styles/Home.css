@@ -1,0 +1,132 @@
+
+  
+  .container {
+    z-index: 1;
+    width: 100vw;
+    height: 100%;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .top-block {
+    display: flex;
+    margin-top: 10%;
+    height: 350px;
+    justify-content: space-evenly;
+  }
+  
+  .image-video {
+    position: relative;
+    width: 318px;
+    height: 350px;
+    background-color: aquamarine;
+  }
+  
+  .image-video__bg-decoration {
+    background-color: lightgrey;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    z-index: -1;
+    transform: translate(-30px, -30px);
+  }
+  
+  .title {
+    align-self: center;
+    margin-left: 35px;
+    font-size: 2.6em;
+  }
+  
+  .title__word-decoration {
+    color: white;
+    background-color: blue;
+    transform: rotate(20deg);
+  }
+  
+  .join-now {
+    align-self: flex-end;
+    width: 150px;
+    height: 80px;
+    background-color: orange;
+    margin-left: 25px;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+  }
+  
+  .join-now__text {
+    color: white;
+    text-decoration: underline;
+  }
+  
+  .join-now-decoration {
+    font-weight: bold;
+  }
+  
+  .check-schedule {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .check-schedule__text {
+    margin-left: 25px;
+    font-weight: bold;
+    color: blue;
+    text-decoration: underline;
+    display: block;
+  }
+  
+  .agustus {
+    width: 230px;
+    height: 80px;
+    padding: 10px;
+    background-color: grey;
+    margin-left: 220px;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .agustus__title {
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .agustus__text {
+    margin: 0;
+  }
+  
+  .join-us {
+    margin-top: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  
+  .join-container {
+    margin-left: 15%;
+  }
+  
+  .join-us__title {
+    font-size: 2em;
+  }
+  
+  .join-us__button {
+    border: 0;
+    outline: none;
+    background-color: orange;
+    color: white;
+    margin-top: 25px;
+    padding: 15px 25px 15px 25px;
+    font-size: 1.3em;
+    cursor: pointer;
+  }
+  
+  .services-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
